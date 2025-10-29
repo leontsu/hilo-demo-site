@@ -1,0 +1,10 @@
+# Cursor ignore file
+node_modules/
+.next/
+out/
+build/
+.vercel/
+*.log
+.DS_Store
+
+
