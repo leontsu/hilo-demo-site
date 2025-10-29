@@ -5,7 +5,7 @@ export default function InstallSteps() {
     'Toggle Developer mode (top right).',
     'Click Load unpacked → select the unzipped /dist folder.',
     'Pin Hilo from the extensions (puzzle icon).',
-    'Open a test article or YouTube link below and try CEFR simplification.',
+    'Open a test article link below and try CEFR simplification.',
   ]
 
   return (

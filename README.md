@@ -2,6 +2,8 @@
 
 A production-ready demo site for the **Hilo** Chrome extension, built with Next.js 14 (App Router), TypeScript, and Tailwind CSS. Optimized for fast deployment on Vercel.
 
+**Hilo** is powered by Chrome's built-in Gemini Nano AI model, helping English learners read web content at their level with CEFR-based text simplification (A1-C1), interactive quizzes, and text summarization.
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -63,15 +65,15 @@ Choose one of two options:
 
 #### 2. Demo Video
 
-Update the YouTube or Vimeo embed URL in `lib/config.ts`:
+Update the Vimeo or other video embed URL in `lib/config.ts`:
 
 ```typescript
-demoVideoUrl: 'https://www.youtube.com/embed/YOUR_VIDEO_ID'
+demoVideoUrl: 'https://your-video-embed-url'
 ```
 
 #### 3. Test Links
 
-Edit the `testLinks` array in `lib/config.ts` to customize the article/YouTube links users can test with:
+Edit the `testLinks` array in `lib/config.ts` to customize the article links users can test with:
 
 ```typescript
 testLinks: [
@@ -119,11 +121,13 @@ url: 'https://your-actual-domain.vercel.app'
 All components are in the `components/` directory:
 
 - `Hero.tsx` - Landing section with headline, video, and CTAs
-- `About.tsx` - "What is Hilo?" section with feature cards
+- `About.tsx` - "What is Hilo?" section with feature cards (Quiz & Summary features)
+- `AITechnology.tsx` - Gemini Nano APIs showcase section
 - `InstallSteps.tsx` - Step-by-step installation guide
-- `TestLinks.tsx` - Curated test links for users
+- `TestLinks.tsx` - Curated test article links for users
+- `ForJudges.tsx` - Judge information and installation testing guide
 - `Troubleshooting.tsx` - Common issues and solutions
-- `Footer.tsx` - Footer with "For Judges" section and links
+- `Footer.tsx` - Footer with quick links and contact info
 
 ### Adding Images
 

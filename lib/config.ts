@@ -7,7 +7,7 @@ export const siteConfig = {
   name: 'Hilo',
   title: 'Hilo — Adaptive Translator for the Real Web',
   description:
-    'Install in Developer Mode and try real-time text & caption simplification with CEFR levels (A1–C1).',
+    'Perfect for English learners at any level. Adjust difficulty, take quizzes, and get summaries with CEFR levels (A1–C1).',
   url: 'https://hilo-demo.vercel.app', // Update with your actual domain
   
   // Choose one of the following:
@@ -18,11 +18,11 @@ export const siteConfig = {
   downloadUrl: '/downloads/hilo-extension-1.0.0.zip',
   
   // Demo video (YouTube or Vimeo embed URL)
-  demoVideoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+  demoVideoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',  // Replace with your actual demo video
   
   // Repository and project info
   repo: {
-    url: 'https://github.com/TODO_GH_USER/TODO_REPO',
+    url: 'https://github.com/leontsu/hilo',
     license: 'MIT',
   },
   
@@ -41,15 +41,15 @@ export const siteConfig = {
       type: 'Article',
     },
     {
-      title: 'YouTube Captions Demo',
-      url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-      type: 'YouTube',
+      title: 'The Guardian',
+      url: 'https://www.theguardian.com',
+      type: 'Article',
     },
   ],
   
   // Contact/social links
   contact: {
-    email: 'hello@example.com', // Update with your contact
+    email: 'leon.tsuboi@gmail.com', // Update with your contact 
   },
 }
 

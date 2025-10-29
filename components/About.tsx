@@ -6,23 +6,26 @@ export default function About() {
           <h2 className="section-heading">What is Hilo?</h2>
           <div className="space-y-6 text-lg text-gray-700 text-left">
             <p>
-              <strong>Hilo</strong> is a Chrome extension that helps language
-              learners read real web content at their level. Using CEFR
-              (Common European Framework of Reference) levels from A1
-              (beginner) to C1 (advanced), Hilo simplifies text and captions in
-              real-time.
+              <strong>Hilo</strong> is a Chrome extension perfect for anyone
+              studying English at any level. Using CEFR (Common European
+              Framework of Reference) levels from A1 (beginner) to C1
+              (advanced), you can select the difficulty that challenges you and
+              transform any webpage to match your learning goals.
             </p>
             <p>
-              Whether you're browsing news articles or watching YouTube videos
-              with captions, Hilo adapts the content to match your reading
-              ability—making authentic materials accessible without
-              overwhelming you.
+              Want to push yourself with advanced vocabulary? Set an easy
+              article to C1 level. Need to practice comprehension at your
+              current level? Adjust it accordingly. Hilo gives you complete
+              control over how you engage with authentic English content, making
+              every article a personalized learning opportunity.
             </p>
             <p>
-              Built with on-device AI for privacy and speed, Hilo works
-              directly in your browser without sending your data to external
-              servers. Perfect for students, educators, and anyone learning a
-              new language!
+              Beyond text simplification, Hilo helps you learn actively with an
+              interactive <strong>Quiz feature</strong> to test your
+              understanding and a <strong>Summarization tool</strong> to quickly
+              grasp key points. Built with on-device AI for privacy and speed,
+              everything works directly in your browser without sending your
+              data to external servers.
             </p>
           </div>
 
@@ -94,15 +97,15 @@ export default function About() {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={2}
-                    d="M13 10V3L4 14h7v7l9-11h-7z"
+                    d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"
                   />
                 </svg>
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                Real-Time Simplification
+                Quiz & Summary
               </h3>
               <p className="text-gray-600 text-sm">
-                Works on articles, YouTube captions, and more web content
+                Test your understanding with quizzes and get quick summaries
               </p>
             </div>
           </div>

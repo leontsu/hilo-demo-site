@@ -272,7 +272,7 @@ testLinks: [
   {
     title: 'Your New Link',
     url: 'https://example.com/article',
-    type: 'Article', // or 'YouTube', 'Video', etc.
+    type: 'Article',
   },
 ]
 ```
@@ -298,7 +298,7 @@ contact: {
 
 ```typescript
 // lib/config.ts
-demoVideoUrl: 'https://www.youtube.com/embed/YOUR_NEW_VIDEO_ID',
+demoVideoUrl: 'https://your-video-embed-url',
 ```
 
 ## Getting Help

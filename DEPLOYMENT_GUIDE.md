@@ -90,7 +90,7 @@ export const siteConfig = {
   
   downloadUrl: '/downloads/hilo-extension-1.0.0.zip', // or GitHub URL
   
-  demoVideoUrl: 'https://www.youtube.com/embed/YOUR_VIDEO_ID', // ← Update!
+  demoVideoUrl: 'https://your-video-embed-url', // ← Update!
   
   repo: {
     url: 'https://github.com/YOUR_USERNAME/YOUR_REPO', // ← Update!

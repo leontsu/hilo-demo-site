@@ -11,7 +11,7 @@ A **production-ready** demo site for the Hilo Chrome extension, optimized for Ve
 - ✅ Hero section with demo video embed
 - ✅ Download button for Chrome extension ZIP
 - ✅ Step-by-step installation guide
-- ✅ Curated test links (articles + YouTube)
+- ✅ Curated test links (articles)
 - ✅ Troubleshooting section
 - ✅ "For Judges" section in footer
 - ✅ Full SEO optimization (meta tags, OG tags, sitemap)
@@ -154,9 +154,9 @@ Each section is a separate component:
    - Helpful tip box
 
 4. **Test Links**
-   - 3 curated links (BBC, Nat Geo, YouTube)
+   - 3 curated article links (BBC, Nat Geo, The Guardian)
    - Opens in new tabs
-   - Type badges (Article/YouTube)
+   - Type badges (Article)
 
 5. **Troubleshooting**
    - 4 common issues with solutions

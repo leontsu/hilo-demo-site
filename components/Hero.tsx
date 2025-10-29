@@ -13,8 +13,7 @@ export default function Hero() {
             Adaptive Translator for the Real Web
           </p>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-            Install in Developer Mode and try real-time text & caption
-            simplification with CEFR levels (A1–C1).
+            Powered by Gemini Nano • Perfect for English learners at any level
           </p>
         </div>
 

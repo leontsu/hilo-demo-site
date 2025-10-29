@@ -1,3 +1,5 @@
+import { siteConfig } from '@/lib/config'
+
 export default function Troubleshooting() {
   const issues = [
     {
@@ -9,11 +11,6 @@ export default function Troubleshooting() {
       title: 'Changes not taking effect',
       solution:
         'Refresh the page after changing CEFR level or toggling modes.',
-    },
-    {
-      title: 'YouTube captions not working',
-      solution:
-        "If nothing happens on YouTube, ensure captions are enabled and try page reload.",
     },
     {
       title: 'ZIP won\'t load',
@@ -71,7 +68,7 @@ export default function Troubleshooting() {
               GitHub repository for more detailed troubleshooting guides.
             </p>
             <a
-              href="https://github.com/TODO_GH_USER/TODO_REPO/issues"
+              href={`${siteConfig.repo.url}/issues`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center text-primary-700 font-medium hover:text-primary-800 hover:underline"
