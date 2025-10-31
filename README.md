@@ -49,7 +49,7 @@ Choose one of two options:
 
 **Option A: Host on Vercel (Recommended for quick setup)**
 
-1. Place your ZIP file at: `public/downloads/hilo-extension-1.0.0.zip`
+1. Place your ZIP file at: `public/downloads/hilo-main.zip`
 2. In `lib/config.ts`, use:
    ```typescript
    downloadUrl: '/downloads/hilo-extension-1.0.0.zip'

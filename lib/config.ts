@@ -15,7 +15,7 @@ export const siteConfig = {
   // downloadUrl: 'https://github.com/TODO_GH_USER/TODO_REPO/releases/download/v1.0.0/hilo-extension-1.0.0.zip',
   
   // Option 2: Host on Vercel (place ZIP in /public/downloads/)
-  downloadUrl: '/downloads/hilo-extension-1.0.0.zip',
+  downloadUrl: '/downloads/hilo-main.zip',
   
   // Demo video (YouTube or Vimeo embed URL)
   demoVideoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',  // Replace with your actual demo video

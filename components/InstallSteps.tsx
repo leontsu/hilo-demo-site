@@ -1,6 +1,6 @@
 export default function InstallSteps() {
   const steps = [
-    'Download and unzip hilo-extension-1.0.0.zip.',
+    'Download and unzip hilo-main.zip.',
     'Open chrome://extensions in Chrome.',
     'Toggle Developer mode (top right).',
     'Click Load unpacked → select the unzipped /dist folder.',
