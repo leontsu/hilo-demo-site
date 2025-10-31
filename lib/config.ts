@@ -15,10 +15,10 @@ export const siteConfig = {
   // downloadUrl: 'https://github.com/TODO_GH_USER/TODO_REPO/releases/download/v1.0.0/hilo-extension-1.0.0.zip',
   
   // Option 2: Host on Vercel (place ZIP in /public/downloads/)
-  downloadUrl: '/downloads/hilo-main.zip',
+  downloadUrl: '/downloads/hilo-dev.zip',
   
   // Demo video (YouTube or Vimeo embed URL)
-  demoVideoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',  // Replace with your actual demo video
+  demoVideoUrl: 'https://player.vimeo.com/video/1132622533',  // Replace with your actual demo video
   
   // Repository and project info
   repo: {
@@ -49,7 +49,10 @@ export const siteConfig = {
   
   // Contact/social links
   contact: {
-    email: 'leon.tsuboi@gmail.com', // Update with your contact 
+    emails: [
+      'hinako.tsutsumi2525@gmail.com',
+      'leon.tsuboi@gmail.com',
+    ],
   },
 }
 

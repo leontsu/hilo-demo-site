@@ -66,14 +66,16 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-bold text-lg mb-4">Contact</h4>
             <ul className="space-y-2 text-sm">
-              <li>
-                <a
-                  href={`mailto:${siteConfig.contact.email}`}
-                  className="hover:text-white hover:underline transition-colors"
-                >
-                  {siteConfig.contact.email}
-                </a>
-              </li>
+              {siteConfig.contact.emails.map((email, index) => (
+                <li key={index}>
+                  <a
+                    href={`mailto:${email}`}
+                    className="hover:text-white hover:underline transition-colors"
+                  >
+                    {email}
+                  </a>
+                </li>
+              ))}
               <li>
                 <a
                   href={`${siteConfig.repo.url}/issues`}
